@@ -1,6 +1,11 @@
 # AVR Helper
 Some helpful things for AVR. Submit new scripts if you find they are useful.
 
+## Contributing Guildelines
+Considering this project is involved with some different types of file, a better way to organize the PRs is to submit one type of changes within one PR. 
+
+For example, if you are adding a lot of scripts for ATXmega128, including those for IDA, avr-gdb or radare2, you'd better submit them in one PR with the title "balabala script bundle for xx,yy,zz". And if you are submitting several different chip config files for IDA, you may want to submit a PR with the title "IDA config files for blabla, tadiyada".
+
 ## File list
 
 ### Debugger Scripts
