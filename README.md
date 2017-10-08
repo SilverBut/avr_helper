@@ -3,6 +3,9 @@ Some helpful things for AVR. Submit new scripts if you find they are useful.
 
 ## File list
 
+### Debugger Scripts
+* `AVRContext.txt`: A group of commans for giving a better context view using avr-gdb.
+
 * * *
 
 ## Legal Statement
@@ -18,4 +21,4 @@ The following related parts are NOT allowed to use this code, unless a statement
 * School of Cyber Engineering of Xidian University (http://ce.xidian.edu.cn)
 * Leaders, researchers, students and any other people or entity sharing common benefits with entities above
 
-According to the relevant laws including the *Cybersecurity Law of the People's Republic of China*, the author and other related entities will resort to legal measures if you are not complying this license.
+According to the relevant laws, including the *Cybersecurity Law of the People's Republic of China*, the author and other related entities will resort to legal measures if you are not complying this license.
