@@ -6,11 +6,15 @@ Some helpful things for AVR. Submit new scripts if you find they are useful.
 ### Debugger Scripts
 * `AVRContext.txt`: A group of commans for giving a better context view using avr-gdb.
 
+### Processor Descriptions
+* `ATmega328P.cfg`: IDA processor configurement file for ATMega328/328P. Test on IDA 7.0
+
 * * *
 
 ## Legal Statement
+IDA, ATMEL, AVR and all other trademarks cited herein are the property of their respective owners.
 
-Copyright of this repo belongs to the original author of those code.
+Copyright of this repo is belonging to the original author of those code.
 
 Unless otherwise stated, you are requested to follow GPLv3 to use code in this repo.
 
