@@ -11,6 +11,7 @@ printf "r30-r31\t%02x\t%02x\tpc\t%04x\tpc2\t%04x\tsp\t%06x\n", $r30, $r31, $pc, 
 printf "x %04x\ty %04x\tz %04x\n", *(short*)26, *(short*)28, *(short*)30
 printf "SREG %02x %c %c %c %c %c %c %c %c\n", $SREG, 'i'&~((($SREG&0x80)!=0)<<5), 't'&~((($SREG&0x40)!=0)<<5), 'h'&~((($SREG&0x20)!=0)<<5), 's'&~((($SREG&0x10)!=0)<<5), 'v'&~((($SREG&0x08)!=0)<<5), 'n'&~((($SREG&0x04)!=0)<<5), 'z'&~((($SREG&0x02)!=0)<<5), 'c'&~((($SREG&0x01)!=0)<<5)
 x/15i ((int)$pc-12)<0?0:$pc-12
+bt
 end
 define bgdb
  b *(void (*)())((int)$arg0)
