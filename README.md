@@ -15,6 +15,9 @@ For example, if you are adding a lot of scripts for ATXmega128, including those 
 * `ATmega328P.cfg`: IDA processor configurement file for ATMega328/328P. Test on IDA 7.0
 * `ATxmega128A4U.cfg`: IDA processor configurement file for ATxMega128A4U. Test on IDA 7.0
 
+## Notice
+* For `ATxmega128A4U`, a bug exists. IDA wrongly added another 0x20 before our register map. According to document from [ATMEL](http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8331-8-and-16-bit-AVR-Microcontroller-XMEGA-AU_Manual.pdf), "The register file is located in a separate address space, and so the registers are not accessible as data memory.". This is not same from most AVR processors like ATmega328P. Waiting for a fix from IDA team. **But I will NOT add a workaround in our config file**, and you are required to patch the processor module of AVR by yourself, in order to fix it. You can contact Hexrays for a updated processor module, if they have.
+
 * * *
 
 ## Legal Statement
