@@ -13,6 +13,7 @@ For example, if you are adding a lot of scripts for ATXmega128, including those 
 
 ### Processor Descriptions
 * `ATmega328P.cfg`: IDA processor configurement file for ATMega328/328P. Test on IDA 7.0
+* `ATxmega128A4U.cfg`: IDA processor configurement file for ATxMega128A4U. Test on IDA 7.0
 
 * * *
 
